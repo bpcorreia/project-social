@@ -43,3 +43,24 @@ iframe#display {
     height: 376px;
     width: 213px;
 }
+
+section#redes-sociais {
+    text-align:right;
+}
+
+section#redes-sociais > a > img {
+    height: 50px;
+    width: 50px;
+    margin: 8px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.402);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.664);
+    transition: transform 0.3s, border 1s;
+
+}
