@@ -35,3 +35,11 @@ section#telemovel {
     background-color: aqua;
     background: url('../imagens/frame-iphone500_248.png') no-repeat;
 }
+
+iframe#display {
+    position: relative;
+    top: 64px;
+    left: 18px;
+    height: 376px;
+    width: 213px;
+}
